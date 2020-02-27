@@ -16,6 +16,7 @@
     "jwk-to-pem": "^2.0.3"
   },
   "devDependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0"
   }
 }
