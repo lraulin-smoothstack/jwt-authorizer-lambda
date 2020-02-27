@@ -157,7 +157,7 @@ describe("MethodARN matchers", function(done) {
       done();
     });
 
-    it("returns token header does not contain possible token", function(done) {
+    it("returns null if header does not contain possible token", function(done) {
       const header = "Bearer snthXEOHTXU24682>064202nhdnbNBMWb";
       const result = getToken(tokenRxResult(header));
       expect(result).to.be.a("null");
